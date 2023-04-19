@@ -17,7 +17,7 @@ footer {
 
 footer a {color:white}
 /* Mobilie layout */
-@media (max-width: 915px) {
+@media (max-width: 1024px) {
     .container {
         width: 100%;
     }
@@ -37,12 +37,12 @@ footer a {color:white}
     }
 }
 
-/* Two-column layout */
-@media (min-width: 916px) {
+@media (min-width: 1025px) {
     .container {
-        width: 90%;
+        width: 65%;
         max-width: 1200px;
         margin: 0 auto;
+       
     }
 
     .row {
@@ -83,17 +83,17 @@ nav ul li {
     padding: 16px 24px
 }
 
-.navbar a:hover {
+a:hover {
     background-color: #ccffcc;
     color: blue;
 }
 
-.navbar a.active {
+a.active {
     background-color: #000033;
     color: white;
 }
 
-.navbar a {
+a {
     color: black;
     text-decoration: none;
 }
@@ -168,3 +168,36 @@ body {
    
 }
 .learnmore a{color:black; text-decoration: none;}
+
+.name { text-align: center;
+    font-weight: bold;
+    font-size:larger}
+.title {text-align: center;
+color:peru}
+
+.Partner td {text-align: center;font-size: medium; font-weight: bold;padding-top:20px}
+
+.Partner {
+    table-layout: fixed;
+    width: 100%; } 
+
+.Partner img     {width: 100vw;
+/* Set the width of the logo to 100% of the viewport width */
+max-width: 250px;
+max-height: 180px }
+
+.artcollection img {width: 100vw;
+    justify-content: center;
+    /* Set the width of the logo to 100% of the viewport width */
+    max-width: 350px;
+    max-height: 350px;
+justify-self: center;}
+.artcollection {width:100%; margin: auto}
+
+body p {font-size: 18px;}
+
+h1 {text-align: center; color:red;font-weight: bolder}
+h2 {text-align: center;}
+
+a img:hover {    background-color: #ccffcc;
+    color: blue;}
